@@ -13,26 +13,26 @@ http://themeforest.net/licenses
     0. Base Style
         0.button Buttons
         0.color Color bg-XX text-XX
-	1. Link and logo at top / .header-top
-	2. Dot navigation at right / #fp-nav, #fp-nav.right
-	3. Quick links at right / .quick-link
-		3.1 quick link position / .quick-link .count-X (where X=1,2,3,4,5)
-		3.2 Links
-	4. Page footer / .page-footer
-	5. Page cover / .page-cover
-		5.1. page cover background image,color (overriden by data-bgcolor or data-image-src atributes) / .page-cover .cover-bg
-		5.2 Page cover  background mask (overriden by data-bgcolor or data-image-src atributes) / .page-cover .cover-bg-mask
-	6. Main page / .page-main
-		6.0 Page footer with scroll down button / .p-footer
-		6.1 Page general params / .page-cent, .page
-		6.3 Page and slide animation / .page.transition , .slide.transition
-		6.4 Page clock countdown / .page-when, .page .clock
-		6.5 Registration form / .page-register
-		6.6 About us / .page-about
-		6.7 Contact, Message / .page-contact
-	7. Video background / .video-container
+  1. Link and logo at top / .header-top
+  2. Dot navigation at right / #fp-nav, #fp-nav.right
+  3. Quick links at right / .quick-link
+    3.1 quick link position / .quick-link .count-X (where X=1,2,3,4,5)
+    3.2 Links
+  4. Page footer / .page-footer
+  5. Page cover / .page-cover
+    5.1. page cover background image,color (overriden by data-bgcolor or data-image-src atributes) / .page-cover .cover-bg
+    5.2 Page cover  background mask (overriden by data-bgcolor or data-image-src atributes) / .page-cover .cover-bg-mask
+  6. Main page / .page-main
+    6.0 Page footer with scroll down button / .p-footer
+    6.1 Page general params / .page-cent, .page
+    6.3 Page and slide animation / .page.transition , .slide.transition
+    6.4 Page clock countdown / .page-when, .page .clock
+    6.5 Registration form / .page-register
+    6.6 About us / .page-about
+    6.7 Contact, Message / .page-contact
+  7. Video background / .video-container
 
-	Hooks for responsiveness (mobile friendly) can be found in "main_responsive.css" file
+  Hooks for responsiveness (mobile friendly) can be found in "main_responsive.css" file
 
 **/
 
@@ -443,9 +443,9 @@ strong, .bold {
   left: 0;
   height: 56px;
   /*
-	background: rgba(255, 255, 255, 0.15);
-	-webkit-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2), 0px 0px 2px 0px rgba(0, 0, 0, 0.1);
-	box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2), 0px 0px 2px 0px rgba(0, 0, 0, 0.1);
+  background: rgba(255, 255, 255, 0.15);
+  -webkit-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2), 0px 0px 2px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2), 0px 0px 2px 0px rgba(0, 0, 0, 0.1);
 */
 }
 
@@ -484,7 +484,7 @@ strong, .bold {
 
 .header-top.material .menu a, .header-top .menu a {
   height: 56px;
-  /*		display: inline-block;*/
+  /*    display: inline-block;*/
   display: block;
   float: left;
   background: #fff;
@@ -502,7 +502,7 @@ strong, .bold {
 .header-top .menu a {
   background: transparent;
   font-weight: normal;
-  /*		font-weight: bold;*/
+  /*    font-weight: bold;*/
   color: #fff;
   position: relative;
 }
@@ -667,8 +667,8 @@ strong, .bold {
 }
 
 .quick-link a:hover {
-  /*		opacity: 0.5;*/
-  /*		color: #5677fc;*/
+  /*    opacity: 0.5;*/
+  /*    color: #5677fc;*/
 }
 
 .quick-link ul li {
@@ -686,7 +686,7 @@ strong, .bold {
   bottom: 0;
   -webkit-transform: scale(0.5);
   transform: scale(0.5);
-  /*		transition: 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);*/
+  /*    transition: 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);*/
   -webkit-transition: 0.2s cubic-bezier(0.215, 0.61, 0.355, 1);
   transition: 0.2s cubic-bezier(0.215, 0.61, 0.355, 1);
   z-index: -1;
@@ -966,9 +966,9 @@ strong, .bold {
   left: 12px;
   margin-left: 0.5px;
   /*
-		-webkit-transform: rotateY(45deg);
-		-ie-transform: rotateY(45deg);
-	*/
+    -webkit-transform: rotateY(45deg);
+    -ie-transform: rotateY(45deg);
+  */
   border: 2px solid rgba(255, 255, 255, 0.15);
   border-left-color: transparent;
   border-top-color: transparent;
@@ -1160,8 +1160,8 @@ strong, .bold {
   transform: none;
   background: transparent;
   /*
-	-webkit-perspective: 1000px;
-	perspective: 1000px;
+  -webkit-perspective: 1000px;
+  perspective: 1000px;
 */
   border: none;
 }
@@ -1204,7 +1204,7 @@ strong, .bold {
 .page.transition .content {
   -webkit-transform: scale(0.85);
   transform: scale(0.85);
-  /*	background: rgba(255, 255, 255, 0.15);*/
+  /*  background: rgba(255, 255, 255, 0.15);*/
 }
 
 .slide.transition {
@@ -1275,8 +1275,8 @@ strong, .bold {
   color: rgba(255, 255, 255, 0.2);
   -webkit-transition: 0.3s;
   transition: 0.3s;
-  /*	width: 300px;*/
-  /*	border-top: 1px solid currentColor;*/
+  /*  width: 300px;*/
+  /*  border-top: 1px solid currentColor;*/
 }
 
 .page-home .content .subhead:hover {
