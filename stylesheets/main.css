@@ -507,7 +507,7 @@ strong, .bold {
   font-weight: normal;
   /*    font-weight: bold;*/
   /*color: #fff;*/
-  color: #00acc1;
+  color: #689F38;
   position: relative;
 }
 
@@ -533,7 +533,7 @@ strong, .bold {
 .header-top .menu a:hover {
   background: rgba(255, 255, 255, 0.15);
   /*color: #fff;*/
-  color: #d89c9c;
+  color: #5677fc;
 }
 
 
@@ -664,7 +664,8 @@ strong, .bold {
   text-align: center;
   font-size: 22px;
   padding-top: 0.4rem;
-  color: #fff;
+  /*color: #fff;*/
+  color: #689F38;
   opacity: 1;
   position: relative;
   z-index: 1;
@@ -674,7 +675,7 @@ strong, .bold {
 
 .quick-link a:hover {
   /*    opacity: 0.5;*/
-  /*    color: #d89c9c;*/
+      color: #fff;
 }
 
 .quick-link ul li {
@@ -722,8 +723,10 @@ strong, .bold {
   font-size: 12px;
   left: 56px;
   top: 17px;
-  color: #fff;
+  /*color: #fff;*/
+  color: #689F38;
   font-family: "Asap";
+  font-weight: bold;
   text-transform: uppercase;
   text-align: left;
   width: 100px;
@@ -749,11 +752,11 @@ strong, .bold {
 
 .page-footer {
   position: fixed;
-  bottom: 20px;
+  bottom: 55px;
   right: 56px;
   margin-right: -8px;
   /*color: #fff;*/
-  color: #00acc1;
+  color: #1c6f79;
   font-size: 18px;
   font-family: 'Asap';
   font-weight: normal;
@@ -773,14 +776,12 @@ strong, .bold {
 
 .page-footer a .ion {
   /*color: #fff;*/
-  color: #00acc1;
+  color: #1c6f79;
   font-size: 1.2em;
 }
 
 .page-footer a:hover {
   opacity: 0.8;
-  /*color: #fff;*/
-  color: #00acc1;
 }
 
 .page-footer a .ion:hover {
@@ -932,13 +933,13 @@ strong, .bold {
   transition: 0.3s;
   font-family: "Asap";
   /*color: #fff;*/
-  color: #00acc1;
+  color: #448c32;
   font-size: 14px;
 }
 
 .p-footer .arrow-d:hover {
   /*background: #5677fc;*/
-  background: #d89c9c;
+  background: #689F38;
 }
 
 .p-footer .arrow-d.gone {
@@ -956,7 +957,7 @@ strong, .bold {
   position: absolute;
   content: "";
   /*background: #fff;*/
-  background: #00acc1;
+  background: #448c32;
   border-radius: 100%;
   -webkit-transition: 0.3s;
   transition: 0.3s;
@@ -1180,7 +1181,7 @@ strong, .bold {
 .page p {
   font-family: 'Asap';
   /*color: #fff;*/
-  color: #00acc1;
+  color: #377c26;
   font-size: 20px;
   margin-bottom: 0.75rem;
 }
@@ -1340,6 +1341,7 @@ strong, .bold {
   text-align: left;
   position: absolute;
   left: 20px;
+  margin-left: -455px;
   /*color: rgba(255, 255, 255, 0.2);*/
   /*color: #fff;*/
   color: #00acc1;
@@ -1350,7 +1352,7 @@ strong, .bold {
 }
 
 .page-home .content .subhead:hover {
-  color: #fff;
+  color: #d89c9c;
 }
 
 .page-home .content .subhead a {
@@ -1566,7 +1568,7 @@ strong, .bold {
   font-weight: bold;
   font-size: 20px;
   /*color: #fff;*/
-  color: #00acc1;
+  color: #448c32;
   text-transform: uppercase;
   display: inline-block;
   margin-bottom: 0.35em;
@@ -1754,7 +1756,7 @@ strong, .bold {
 
 .page-contact a {
   /*color: #fff;*/
-  color: #00acc1;
+  color: #377c26;
 }
 
 .page-contact .right {
@@ -1771,7 +1773,7 @@ strong, .bold {
 
 .page-contact .socialnet a {
   /*color: #fff;*/
-  color: #00acc1;
+  color: #377c26;
   font-size: 24px;
   margin-bottom: 0.25rem;
   display: inline-block;
