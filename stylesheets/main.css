@@ -783,6 +783,47 @@ strong, .bold {
   color: #00acc1;
 }
 
+.page-footer a .ion:hover {
+  color: #fff;
+}
+
+/* Facebook */
+.page-footer a .ion-social-facebook {
+  -webkit-transition: width 2s, height 2s, -webkit-transform 2s;
+  /* Safari */
+  transition: width 2s, height 2s, transform 2s;
+}
+
+.page-footer a .ion-social-facebook:hover {
+  -webkit-transform: rotate(360deg);
+  /* Safari */
+  transform: rotate(360deg);
+}
+
+.page-footer a .ion-social-twitter {
+  -webkit-transition: width 2s, height 2s, -webkit-transform 2s;
+  /* Safari */
+  transition: width 2s, height 2s, transform 2s;
+}
+
+.page-footer a .ion-social-twitter:hover {
+  -webkit-transform: rotate(360deg);
+  /* Safari */
+  transform: rotate(360deg);
+}
+
+
+.page-footer a .ion-social-youtube {
+  -webkit-transition: width 2s, height 2s, -webkit-transform 2s;
+  /* Safari */
+  transition: width 2s, height 2s, transform 2s;
+}
+
+.page-footer a .ion-social-youtube:hover {
+  -webkit-transform: rotate(360deg);
+  /* Safari */
+  transform: rotate(360deg);
+}
 
 /* 5. Page cover */
 
