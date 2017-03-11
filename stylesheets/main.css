@@ -51,7 +51,8 @@ http://themeforest.net/licenses
 /* initialization */
 
 html {
-  color: #fff;
+  /*color: #fff;*/
+  color: #00acc1;
   font-size: 1em;
   line-height: 1.4;
   background: #626262;
@@ -285,7 +286,8 @@ ul, li {
 }
 
 .title.bg-blue, .bg-blue, .mask-blue:before {
-  background: #5677fc;
+  /*background: #5677fc;*/
+  background: #d89c9c;
 }
 
 .title.bg-pink, .bg-pink, .mask-pink:before {
@@ -488,7 +490,8 @@ strong, .bold {
   display: block;
   float: left;
   background: #fff;
-  color: #5677fc;
+  /*color: #5677fc;*/
+  color: #d89c9c;
   text-transform: capitalize;
   text-align: center;
   font-size: 18px;
@@ -503,7 +506,8 @@ strong, .bold {
   background: transparent;
   font-weight: normal;
   /*    font-weight: bold;*/
-  color: #fff;
+  /*color: #fff;*/
+  color: #00acc1;
   position: relative;
 }
 
@@ -522,12 +526,14 @@ strong, .bold {
 }
 
 .header-top.material .menu a:hover {
-  background: #5677fc;
+  /*background: #5677fc;*/
+  background: #d89c9c;
 }
 
 .header-top .menu a:hover {
   background: rgba(255, 255, 255, 0.15);
-  color: #fff;
+  /*color: #fff;*/
+  color: #d89c9c;
 }
 
 
@@ -668,7 +674,7 @@ strong, .bold {
 
 .quick-link a:hover {
   /*    opacity: 0.5;*/
-  /*    color: #5677fc;*/
+  /*    color: #d89c9c;*/
 }
 
 .quick-link ul li {
@@ -697,7 +703,8 @@ strong, .bold {
   transform: none;
   border-radius: 0;
   background: rgba(255, 255, 255, 0.15);
-  background: #5677fc;
+  /*background: #5677fc;*/
+  background: #d89c9c;
 }
 
 .quick-link ul li.active:after {
@@ -706,7 +713,8 @@ strong, .bold {
 
 .quick-link a.marked {
   color: #fff;
-  background: #5677fc;
+  /*background: #5677fc;*/
+  background: #d89c9c;
 }
 
 .quick-link .title {
@@ -744,7 +752,8 @@ strong, .bold {
   bottom: 20px;
   right: 56px;
   margin-right: -8px;
-  color: #fff;
+  /*color: #fff;*/
+  color: #00acc1;
   font-size: 18px;
   font-family: 'Asap';
   font-weight: normal;
@@ -763,11 +772,15 @@ strong, .bold {
 }
 
 .page-footer a .ion {
+  /*color: #fff;*/
+  color: #00acc1;
   font-size: 1.2em;
 }
 
 .page-footer a:hover {
   opacity: 0.8;
+  /*color: #fff;*/
+  color: #00acc1;
 }
 
 
@@ -784,10 +797,10 @@ strong, .bold {
 /* 5.1. Page cover background image,color */
 
 .page-cover .cover-bg {
-  background: url(../img/bg-default.jpg);
+  background: url(../images/home-improvement.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: right bottom;
   background-attachment: fixed;
   z-index: -3;
 }
@@ -840,7 +853,8 @@ strong, .bold {
 .p-footer .icon {
   position: absolute;
   top: 24px;
-  color: #fff;
+  /*color: #fff;*/
+  color: #00acc1;
   text-align: center;
   width: 24px;
   margin-left: -12px;
@@ -863,7 +877,8 @@ strong, .bold {
 .p-footer .arrow-d {
   position: relative;
   width: 1px;
-  background: rgba(255, 255, 255, 0.15);
+  /*background: rgba(255, 255, 255, 0.15);*/
+  background: rgb(230, 238, 239);
   height: 48px;
   width: 48px;
   left: 50%;
@@ -875,12 +890,14 @@ strong, .bold {
   margin-left: -24px;
   transition: 0.3s;
   font-family: "Asap";
-  color: #fff;
+  /*color: #fff;*/
+  color: #00acc1;
   font-size: 14px;
 }
 
 .p-footer .arrow-d:hover {
-  background: #5677fc;
+  /*background: #5677fc;*/
+  background: #d89c9c;
 }
 
 .p-footer .arrow-d.gone {
@@ -897,7 +914,8 @@ strong, .bold {
   right: 12px;
   position: absolute;
   content: "";
-  background: #fff;
+  /*background: #fff;*/
+  background: #00acc1;
   border-radius: 100%;
   -webkit-transition: 0.3s;
   transition: 0.3s;
@@ -932,7 +950,8 @@ strong, .bold {
 }
 
 .p-footer .arrow-d:hover .circle {
-  background: #5677fc;
+  /*background: #5677fc;*/
+  background: #d89c9c;
   background: rgba(86, 119, 252, 0);
   top: 0px;
   bottom: 0px;
@@ -1056,7 +1075,7 @@ strong, .bold {
   width: 720px;
   /*    width: auto;*/
   margin: 0 auto;
-  padding-top: 72px;
+  /*padding-top: -19px;*/
   padding-bottom: 72px;
   padding-left: 1em;
   padding-right: 1em;
@@ -1066,7 +1085,8 @@ strong, .bold {
   transition: 0.6s;
   text-align: left;
   font-family: 'Asap';
-  color: #fff;
+  /*color: #fff;*/
+  color: #00acc1;
 }
 
 .page-cent .p-title {
@@ -1080,9 +1100,11 @@ strong, .bold {
   padding-left: 0px;
   text-align: left;
   display: inline-block;
-  color: #fff;
+  /*color: #fff;*/
+  color: #00acc1;
   font-family: 'Asap';
-  border-bottom: 8px solid #5677fc;
+  /*border-bottom: 8px solid #5677fc;*/
+  border-bottom: 8px solid #d89c9c;
 }
 
 .page-cent .p-title h2 {
@@ -1093,7 +1115,8 @@ strong, .bold {
   margin-top: 0.3em;
   margin-bottom: 0.3em;
   display: block;
-  color: #fff;
+  /*color: #fff;*/
+  color: #00acc1;
   font-family: 'Asap';
 }
 
@@ -1115,7 +1138,8 @@ strong, .bold {
 
 .page p {
   font-family: 'Asap';
-  color: #ffffff;
+  /*color: #fff;*/
+  color: #00acc1;
   font-size: 20px;
   margin-bottom: 0.75rem;
 }
@@ -1139,7 +1163,8 @@ strong, .bold {
 .page h4 {
   text-transform: uppercase;
   font-weight: bold;
-  color: #ffffff;
+  /*color: #fff;*/
+  color: #00acc1;
   font-size: 20px;
   margin-bottom: 0;
   margin-top: 0;
@@ -1147,7 +1172,8 @@ strong, .bold {
 
 .page h2, .page h3, .page h4 {
   font-family: 'Asap';
-  color: #ffffff;
+  /*color: #fff;*/
+  color: #00acc1;
 }
 
 
@@ -1220,11 +1246,12 @@ strong, .bold {
   position: relative;
   max-width: 1200px;
   width: 100%;
+  top: -34px;
 }
 
 .page-home .logo-container {
   position: absolute;
-  top: 100px;
+  top: 51px;
   width: 100%;
   text-align: center;
 }
@@ -1232,8 +1259,8 @@ strong, .bold {
 .page-home .logo-container img.h-logo {
   position: relative;
   display: inline-block;
-  /* adjust below according t your llogo dimension */
-  height: 100px;
+  /* logo dimension */
+  height: 135px;
   width: auto;
 }
 
@@ -1258,7 +1285,7 @@ strong, .bold {
 .page-home .content h3 {
   text-align: left;
   text-transform: uppercase;
-  font-size: 40px;
+  font-size: 24px;
   line-height: 1em;
   font-weight: bold;
   border-left: 4px solid currentColor;
@@ -1272,7 +1299,9 @@ strong, .bold {
   text-align: left;
   position: absolute;
   left: 20px;
-  color: rgba(255, 255, 255, 0.2);
+  /*color: rgba(255, 255, 255, 0.2);*/
+  /*color: #fff;*/
+  color: #00acc1;
   -webkit-transition: 0.3s;
   transition: 0.3s;
   /*  width: 300px;*/
@@ -1339,7 +1368,8 @@ strong, .bold {
   margin-top: 0.5em;
   display: block;
   text-transform: uppercase;
-  color: #fff;
+  /*color: #fff;*/
+  color: #00acc1;
   text-align: center;
 }
 
@@ -1367,7 +1397,8 @@ strong, .bold {
   font-family: 'Asap';
   font-weight: bold;
   width: 100%;
-  color: #fff;
+  /*color: #fff;*/
+  color: #00acc1;
   display: block;
 }
 
@@ -1420,7 +1451,8 @@ strong, .bold {
   font-family: 'Asap';
   font-weight: normal;
   width: 100%;
-  color: #fff;
+  /*color: #fff;*/
+  color: #00acc1;
   display: block;
 }
 
@@ -1492,7 +1524,8 @@ strong, .bold {
   font-family: 'Asap';
   font-weight: bold;
   font-size: 20px;
-  color: #fff;
+  /*color: #fff;*/
+  color: #00acc1;
   text-transform: uppercase;
   display: inline-block;
   margin-bottom: 0.35em;
@@ -1502,7 +1535,8 @@ strong, .bold {
 .page .form .fields {
   margin-top: 24px;
   position: relative;
-  border-bottom: 1px solid #5677fc;
+  /*border-bottom: 1px solid #5677fc;*/
+  border-bottom: 1px solid #d89c9c;
 }
 
 .page .form .fields.no-border {
@@ -1520,7 +1554,8 @@ strong, .bold {
 }
 
 .page .form button {
-  background: #5677fc;
+  /*background: #5677fc;*/
+  background: #d89c9c;
   color: #fff;
   font-family: 'Asap';
   font-weight: bold;
@@ -1560,7 +1595,8 @@ strong, .bold {
 
 .page .form button:hover {
   background: transparent;
-  color: #5677fc;
+  /*color: #5677fc;*/
+  color: #d89c9c;
 }
 
 .page .form textarea {
@@ -1676,7 +1712,8 @@ strong, .bold {
 }
 
 .page-contact a {
-  color: #fff;
+  /*color: #fff;*/
+  color: #00acc1;
 }
 
 .page-contact .right {
@@ -1692,7 +1729,8 @@ strong, .bold {
 }
 
 .page-contact .socialnet a {
-  color: #fff;
+  /*color: #fff;*/
+  color: #00acc1;
   font-size: 24px;
   margin-bottom: 0.25rem;
   display: inline-block;
