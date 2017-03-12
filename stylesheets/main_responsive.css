@@ -66,6 +66,10 @@ http://themeforest.net/licenses
   .page-home .content h3 {
     font-size: 16px;
   }
+  .page-home .content .subhead {
+    margin: 0px;
+    left: 7px;
+  }
 }
 
 
