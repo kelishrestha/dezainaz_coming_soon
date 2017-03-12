@@ -533,7 +533,7 @@ strong, .bold {
 .header-top .menu a:hover {
   background: rgba(255, 255, 255, 0.15);
   /*color: #fff;*/
-  color: #5677fc;
+  color: #1c6f79;
 }
 
 
@@ -554,7 +554,7 @@ strong, .bold {
 }
 
 #fp-nav ul li a span {
-  background: #fff;
+  background: #1c6f79;
 }
 
 #fp-nav li, .fp-slidesNav li {
@@ -580,7 +580,7 @@ strong, .bold {
 }
 
 #fp-nav li .active span, .fp-slidesNav .active span {
-  background: #fff;
+  background: #689F38;
   position: absolute;
 }
 
