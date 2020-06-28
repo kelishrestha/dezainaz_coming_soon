@@ -1,0 +1,30 @@
+{
+  "name": "dezainaz_coming_soon_1",
+  "version": "1.0.0",
+  "description": "Coming soon template",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kelishrestha/dezainaz_coming_soon.git"
+  },
+  "keywords": [
+    "coming",
+    "soon"
+  ],
+  "author": "Kelina Shrestha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kelishrestha/dezainaz_coming_soon/issues"
+  },
+  "homepage": "https://github.com/kelishrestha/dezainaz_coming_soon#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hammerjs": "^2.0.8"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
